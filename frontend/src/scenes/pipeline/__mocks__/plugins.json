@@ -96,7 +96,7 @@
             "config_schema": [],
             "tag": "2dd67e1dec9c8b5febd7a6d9235c51072950cd37",
             "latest_tag": "2dd67e1dec9c8b5febd7a6d9235c51072950cd37",
-            "is_global": false,
+            "is_global": true,
             "organization_id": "12345678-abcd-1234-abcd-1234567890ab",
             "organization_name": "PostHog",
             "capabilities": {
@@ -117,7 +117,7 @@
             "config_schema": [],
             "tag": "2dd67e1dec9c8b5febd7a6d9235c51072950cd37",
             "latest_tag": "2dd67e1dec9c8b5febd7a6d9235c51072950cd37",
-            "is_global": true,
+            "is_global": false,
             "organization_id": "12345678-abcd-1234-abcd-1234567890ab",
             "organization_name": "PostHog",
             "capabilities": {
@@ -131,8 +131,8 @@
         {
             "id": 6,
             "plugin_type": "inline",
-            "name": "Should be global inline",
-            "description": "should be global inline desc",
+            "name": "Global inline",
+            "description": "inline desc",
             "url": "inline://noop",
             "icon": null,
             "config_schema": [],
